@@ -6,6 +6,6 @@ Then, download the `yaml` file corresponding to your OS
 
 ## Linux users
 
-- Open a Terminal, and navigate to the location of the Osmose `yaml` file.
+- Open a Terminal, and navigate to the location of the Ichthyop `yaml` file.
 - Type `conda env create -f ichthyop-linux.yml`.
 - When done, type `conda activate ichthyop`.
