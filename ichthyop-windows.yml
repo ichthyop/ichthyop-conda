@@ -67,7 +67,7 @@ dependencies:
   - netcdf4=1.5.6=nompi_py36h694ea1f_100
   - numpy=1.19.5=py36hd1b969e_1
   - olefile=0.46=pyh9f0ad1d_1
-  - openjdk=11.0.8=0
+  - openjdk=11.0.9.1=h57928b3_0
   - openssl=1.1.1j=h8ffe710_0
   - packaging=20.9=pyh44b312d_0
   - pandas=1.1.5=py36he38d939_0
@@ -112,7 +112,7 @@ dependencies:
   - toolz=0.11.1=py_0
   - tornado=6.1=py36h68aa20f_1
   - typing_extensions=3.7.4.3=py_0
-  - urllib3=1.26.3=pyhd8ed1ab_0
+  - urllib3=1.26.4=pyhd8ed1ab_0
   - vc=14.2=hb210afc_4
   - vs2013_runtime=12.0.21005=1
   - vs2015_runtime=14.28.29325=h5e1d092_4
