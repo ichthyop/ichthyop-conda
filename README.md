@@ -14,7 +14,7 @@ bash Anaconda3-2020.11-Linux-x86_64.sh
 
 **Do not allow the `git-init` command**. 
 
-When done, add the following line to your `~/.bash_profile` file:
+When done, add the following line to your `~/.bash_profile` and `~/.bashrc` files:
 
 ```
 . $CONDA/etc/profile.d/conda.sh
@@ -26,7 +26,7 @@ with `$CONDA` the path of your `Anaconda` install.
 
 When downloaded, double-click on the ```Anaconda3-2020.11-MacOSX-x86_64.pkg``` file. 
 
-When done, add the following line to your `~/.bash_profile` file:
+When done, add the following line to your `~/.bash_profile` and `~/.bashrc` files:
 
 ```
 . $CONDA/etc/profile.d/conda.sh
@@ -40,16 +40,21 @@ Double-click on the ```Anaconda3-2020.11-Windows-x86_64.exe``` and follow the in
 
 ## Install Ichthyop Environments
 
-### Linux / Mac Os X users
+### From command line (Anaconda Prompt, Terminal)
 
-- Open a Terminal, and navigate to the location of the Ichthyop `yaml` file.
-- Type `conda env create -f ichthyop-arch.yml`, replacing `arch` by your architecture.
-- When done, type `conda activate ichthyop`.
-
-### Windows Users
+- Open a Terminal or the Anaconda prompt, and type: `conda create -c conda-forge --name ichthyop`
+- Activate the environment: `conda activate ichthyop` 
+- Install Maven and NetCDF4 libray by typing:
+```
+conda install -y maven openjdk netcdf4 
+```
+- To build the documentation and use the Python library for Ichthyop, install the additional packages:
+```
+conda install -y xarray dask cartopy matplotlib ffmpeg sphinxcontrib-programoutput sphinxcontrib-bibtex ipython sphinx_rtd_theme spyder
+```
+### From Anaconda Navigator (Windows/MacOs users)
 
 - Open the `Anaconda Navigator`
-- Click on `Environments`
-- Click on the `Import` button.
-- Navigate to the `ichthyop-windows.yml` file
-- When done, select the `ichthyop` environment.
+- Click on `Environments` and on the `Create` button. Select `Python`
+- In the `Channels` box, make sure that both `Defaults` and `Conda-Forge` are available.
+- Select all the packages listed in the above and which are not installed yet, then click on `Apply`
