@@ -50,7 +50,7 @@ conda install -y maven openjdk netcdf4
 ```
 - To build the documentation and use the Python library for Ichthyop, install the additional packages:
 ```
-conda install -y xarray dask cartopy matplotlib ffmpeg sphinxcontrib-programoutput sphinxcontrib-bibtex ipython sphinx_rtd_theme spyder
+conda install -y xarray dask cartopy matplotlib ffmpeg sphinxcontrib-programoutput sphinxcontrib-bibtex ipython sphinx_rtd_theme spyder nbsphinx
 ```
 ### From Anaconda Navigator (Windows/MacOs users)
 
