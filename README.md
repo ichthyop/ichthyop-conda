@@ -52,6 +52,11 @@ conda install -y maven openjdk netcdf4
 ```
 conda install -y xarray dask cartopy matplotlib ffmpeg sphinxcontrib-programoutput sphinxcontrib-bibtex ipython sphinx_rtd_theme spyder nbsphinx
 ```
+- To use Jupyter Notebooks, install the following packages:
+```
+conda install jupyter jupytext
+```
+
 ### From Anaconda Navigator (Windows/MacOs users)
 
 - Open the `Anaconda Navigator`
