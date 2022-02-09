@@ -44,17 +44,25 @@ Double-click on the ```Anaconda3-2020.11-Windows-x86_64.exe``` and follow the in
 
 - Open a Terminal or the Anaconda prompt, and type: `conda create -c conda-forge --name ichthyop`
 - Activate the environment: `conda activate ichthyop` 
-- Install Maven and NetCDF4 libray by typing:
+- To run and compile Ichthyop, install Maven and NetCDF4 libray by typing:
 ```
 conda install -y maven openjdk netcdf4 
 ```
-- To build the documentation and use the Python library for Ichthyop, install the additional packages:
+- To use the Python library for Ichthyop, install the additional packages:
 ```
-conda install -y xarray dask cartopy matplotlib ffmpeg sphinxcontrib-programoutput sphinxcontrib-bibtex ipython sphinx_rtd_theme spyder nbsphinx
+conda install -y xarray dask cartopy matplotlib ffmpeg 
+```
+- To use spyder, install:
+```
+conda install -y spyder
 ```
 - To use Jupyter Notebooks, install the following packages:
 ```
 conda install -y jupyter jupytext
+```
+- To build the documentation, install:
+```
+conda install -y sphinxcontrib-programoutput sphinxcontrib-bibtex ipython sphinx_rtd_theme nbsphinx
 ```
 
 ### From Anaconda Navigator (Windows/MacOs users)
