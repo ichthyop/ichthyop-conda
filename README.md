@@ -54,7 +54,7 @@ conda install -y xarray dask cartopy matplotlib ffmpeg sphinxcontrib-programoutp
 ```
 - To use Jupyter Notebooks, install the following packages:
 ```
-conda install jupyter jupytext
+conda install -y jupyter jupytext
 ```
 
 ### From Anaconda Navigator (Windows/MacOs users)
