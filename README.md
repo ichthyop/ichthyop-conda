@@ -58,7 +58,7 @@ conda install -y spyder
 ```
 - To use Jupyter Notebooks, install the following packages:
 ```
-conda install -y jupyter jupytext
+conda install -y jupyter jupytext ipykernel
 ```
 - To build the documentation, install:
 ```
