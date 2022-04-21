@@ -58,8 +58,10 @@ conda install -y spyder
 ```
 - To use Jupyter Notebooks, install the following packages:
 ```
-conda install -y jupyter jupytext ipykernel
+conda install -y ipykernel
 ```
+**Note: your `base` environment must contain the `nb_conda_kernels` package.**
+
 - To build the documentation, install:
 ```
 conda install -y sphinxcontrib-programoutput sphinxcontrib-bibtex ipython sphinx_rtd_theme nbsphinx
